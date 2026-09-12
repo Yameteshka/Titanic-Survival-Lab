@@ -30,14 +30,14 @@
     "Fare",
     "Embarked"
   ],
-  "trained_at": "2026-09-12T20:00:11.020380+00:00",
+  "trained_at": "2026-09-12T20:15:11.198248+00:00",
   "classification_threshold": 0.5,
   "dataset_sizes": {
     "train": 576,
     "test": 145
   },
   "random_seed": 42,
-  "model_version": "titanic-20260912200011",
+  "model_version": "titanic-20260912201511",
   "training": {
     "epochs": 250,
     "learning_rate": 0.01,
