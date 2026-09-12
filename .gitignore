@@ -1,0 +1,23 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp/
+.docker-config/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+.docker-config/
+index.html
+PMLDL Assignment 1_ Deployment.md
+services/airflow/logs/
+services/airflow/config/
+services/airflow/plugins/
+mlruns/*
+!mlruns/.gitkeep
+*.log
+.DS_Store
+Thumbs.db

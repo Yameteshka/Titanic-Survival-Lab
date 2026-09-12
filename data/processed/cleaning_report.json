@@ -1,0 +1,54 @@
+{
+  "initial_row_count": 891,
+  "initial_missing_values": {
+    "PassengerId": 0,
+    "Survived": 0,
+    "Pclass": 0,
+    "Name": 0,
+    "Sex": 0,
+    "Age": 177,
+    "SibSp": 0,
+    "Parch": 0,
+    "Ticket": 0,
+    "Fare": 0,
+    "Cabin": 687,
+    "Embarked": 2
+  },
+  "target_missing_rows_removed": 0,
+  "duplicate_rows_removed": 0,
+  "imputation_values": {
+    "Age": 28.0,
+    "Fare": 14.4542,
+    "SibSp": 0.0,
+    "Parch": 0.0,
+    "Pclass": 3.0,
+    "Sex": "male",
+    "Embarked": "S"
+  },
+  "outlier_method": "IQR with 1.5 multiplier",
+  "outlier_bounds": {
+    "Age": {
+      "q1": 22.0,
+      "q3": 35.0,
+      "iqr": 13.0,
+      "lower": 2.5,
+      "upper": 54.5
+    },
+    "Fare": {
+      "q1": 7.9104,
+      "q3": 31.0,
+      "iqr": 23.0896,
+      "lower": -26.724,
+      "upper": 65.6344
+    }
+  },
+  "outlier_rows_removed": 170,
+  "rows_after_cleaning": 721,
+  "train_rows": 576,
+  "test_rows": 145,
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratified_by": "Survived"
+  }
+}

@@ -1,0 +1,9 @@
+.git
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+mlruns
+services/airflow/logs
+index.html
+PMLDL Assignment 1_ Deployment.md

@@ -1,0 +1,56 @@
+{
+  "model_type": "PyTorch single-neuron logistic classifier (nn.Linear(input_dim, 1))",
+  "input_feature_count": 18,
+  "feature_names": [
+    "Pclass",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "FamilySize",
+    "IsAlone",
+    "FarePerPerson",
+    "LogFare",
+    "Sex_female",
+    "Sex_male",
+    "Embarked_C",
+    "Embarked_Q",
+    "Embarked_S",
+    "AgeGroup_adult",
+    "AgeGroup_child",
+    "AgeGroup_teenager",
+    "AgeGroup_young_adult"
+  ],
+  "raw_features": [
+    "Pclass",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Embarked"
+  ],
+  "trained_at": "2026-09-12T20:00:11.020380+00:00",
+  "classification_threshold": 0.5,
+  "dataset_sizes": {
+    "train": 576,
+    "test": 145
+  },
+  "random_seed": 42,
+  "model_version": "titanic-20260912200011",
+  "training": {
+    "epochs": 250,
+    "learning_rate": 0.01,
+    "optimizer": "Adam",
+    "loss": "BCEWithLogitsLoss"
+  },
+  "artifacts": {
+    "model": "model.pt",
+    "preprocessor": "preprocessor.joblib",
+    "metrics": "metrics.json"
+  },
+  "versions": {
+    "torch": "2.5.1+cpu",
+    "scikit_learn": "1.5.2"
+  }
+}
